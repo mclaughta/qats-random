@@ -46,6 +46,7 @@ class PersonSpec extends Specification {
 	}
 
 	void "test something"() {
+		setup:
 		def random = { lst -> lst[new Random().nextInt(lst.size())] }
 
 		when:
