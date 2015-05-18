@@ -45,7 +45,7 @@ class PersonSpec extends Specification {
 	def cleanup() {
 	}
 
-	void "test something"() {
+	void "test creating random person objects"() {
 		setup:
 		def random = { lst -> lst[new Random().nextInt(lst.size())] }
 
