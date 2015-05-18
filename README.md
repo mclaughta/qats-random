@@ -1,5 +1,5 @@
 # qats-random
-My solution to the QATS random data homework assignment.  I've added some hints and things to the (wiki)[wiki]
+My solution to the QATS random data homework assignment.  I've added some hints and things to the [wiki](wiki)
 
 This task is intended to familiarize you with the some OOP nomenclature as well as (hopefully) learn the expressive power of Groovy. It will require you to read and write files, use random number generators, and structure a basic Grails application.
 
