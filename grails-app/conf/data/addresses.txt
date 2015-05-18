@@ -66,7 +66,7 @@ Des Moines, IA 50309
 
 Kansas Dept. of Commerce
 Travel And Tourism Div.
-1000 S.W. Jackson Street�
+1000 S.W. Jackson Street���
 Suite 100
 Topeka, KS 66612
 
@@ -148,8 +148,8 @@ Raleigh, NC 27601
 North Dakota Tourism
 Liberty Memorial Building
 604 East Boulevard
-
 Bismark, ND 58505-0825
+
 Ohio Department of Commerce
 77 South High St
 23rd Floor
@@ -182,7 +182,7 @@ Columbia, SC 29201
 
 South Dakota Department of Tourism
 711 East Wells Ave.
-c/o 500 East Capitol Ave.�
+c/o 500 East Capitol Ave.���
 Pierre, SD 57501-5070
 
 Tennessee Department of Tourist Development
