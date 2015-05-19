@@ -5,6 +5,6 @@ class Person {
 	String lastName
 	String ssn
 	Address address
-    static constraints = {
-    }
+	
+    	static constraints = {}
 }
