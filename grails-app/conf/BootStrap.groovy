@@ -1,6 +1,10 @@
+import java.text.DecimalFormat
+
 import moo.qats.model.*
 
 class BootStrap {
+	
+	private static final int NUM_INSTANCES = 500
 
 	def init = { servletContext ->
 		//////////////// LOAD RANDOM DATA FROM FILES /////////////////
@@ -29,8 +33,11 @@ class BootStrap {
 
 		//////////////// POPULATE AND SAVE RANDOM PERSON OBJECTS ////////////////
 		def random = { lst -> lst[new Random().nextInt(lst.size())] }
-		def people = (1..50000).collect {
+		def format = new DecimalFormat("##%")
+		println "Creating and persisting $NUM_INSTANCES Person objects..."
+		def people = (1..NUM_INSTANCES).collect {
 			def ssn = random(ssns)
+			if(it % 5000 == 0 ) println format.format( it / NUM_INSTANCES as float)
 			ssns -= ssn // single-use ssns
 			new Person(
 					firstName: random (firstNames),
@@ -40,6 +47,7 @@ class BootStrap {
 					)
 		}
 		people*.save(failOnError:true)
+		println "... completed."
 
 	}
 	def destroy = {
